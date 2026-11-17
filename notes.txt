@@ -1,0 +1,173 @@
+Class - 1
+==========
+
+    -> Python Course 
+
+        -> Full Stack Development 
+
+            -> HTML / CSS / JS / SQL / Django / FAST API etc 
+
+            -> Build Web Applications & API's 
+
+        -> Data Analytics / Data Engineering / Data Science / AI 
+
+            -> NumPy & Pandas / PySpark / PyTorch / LangChain 
+
+            -> Build Visualizations / Pipelines / Build Models / Build Agents 
+
+        -> Cloud Computing / DevOps / Automation Testing 
+
+            -> OS / Sys / Boto3 etc 
+
+            -> Build Automation Scripts 
+
+
+    -> NOTE: Core Python, Which Is Common For All Above Courses 
+
+
+    -> Python
+
+        -> Python is a high-level, general-purpose programming language. 
+        It emphasizes code readability, simplicity, and ease-of-writing 
+        with the use of significant indentation, "plain English" naming, 
+        an extensive ("batteries-included") standard library, and garbage collection.
+
+            -> https://en.wikipedia.org/wiki/Python_(programming_language)
+
+
+        -> Python is a high-level programming language. 
+
+            -> High Level Language
+
+                -> High Level Language Means "Human Understandable" Language (English)
+
+                -> Python Code Looks Like Plain English
+
+                    num1 = 1.5
+                    num2 = 2.5
+                    sum = num1 + num2
+
+            -> Low Level Language
+
+                -> Low Level Language Means "Machine Understandable" Language (Binary)
+                Binary Bites i.e 010101010101
+
+                -> 01110000 01111001 01110100 01101000 01101111 01101110 -> python
+
+
+        -> Python is a general-purpose programming language. 
+
+            -> If We Can Build "Multiple Types Of" Applications 
+
+                -> Desktop Applications ? -> Yes
+
+                -> Web Applications  ? -> Yes
+
+                -> API's  ? -> Yes
+
+                -> Automation Scripts  ? -> Yes
+
+        
+        -> Domain Specific Language 
+
+            -> If We Can Build "Only Specific Type Of" Applications 
+
+            -> SQL (Structured Query Language) a domain-specific language used to 
+            manage data, especially in a relational database management system (RDBMS).
+
+                -> Desktop Applications ? -> No
+
+                -> Web Applications  ? -> No
+
+                -> API's  ? -> No
+
+                -> Automation Scripts  ? -> No
+
+
+
+        -> Python emphasizes code readability, simplicity, and ease-of-writing 
+        with the use of significant indentation, "plain English" naming, 
+
+            Java Code
+            ---------
+
+            class Main {
+
+                public static void main(String[] args) {
+                    
+                    int first = 10;
+                    int second = 20;
+
+                    // add two numbers
+                    int sum = first + second;
+                    System.out.println(first + " + " + second + " = "  + sum);
+                }
+            }
+
+            class 
+            public
+            static
+            void
+            []
+            {}
+            ;
+            etc 
+
+            Python Code 
+            -----------
+
+                num1 = 5
+                num2 = 10
+                sum = num1 + num2 
+                print(sum)
+
+    
+        -> Indentation 
+
+            -> Indentation Refers To "Code Structuring" 
+
+            -> In Python We use "Spaces" For Indentation 
+
+            -> Guido van Rossum began working on Python in the late 1980s 
+            as a successor to the ABC programming language.
+
+            -> ABC Language: https://cdn-blog.adafruit.com/uploads/2020/01/adafruit_2019_3368.jpg
+
+            
+
+    -> Python is an extensive ("batteries-included") standard library, and garbage collection.
+
+        -> Extensive ("batteries-included") standard library
+
+            -> Python already provided 200+ Modules In standard library i.e 
+            when we install python we get all these out of box 
+
+        
+        -> Python Is Garbage Collected 
+
+            -> Garbage Means Unused 
+
+            -> Python Is Garbage Collected 
+
+                -> Means Python Automatically Removes "Unused Data"
+
+                -> We Get Memory Efficiency 
+
+                product = "iphone"
+                price = 120000
+                rating = 4.7
+
+                print(product)
+                print(rating)
+
+                -> NOTE: Python Cleans Up price Memory, as it's not used in the program 
+
+
+            
+
+
+
+
+
+
+
