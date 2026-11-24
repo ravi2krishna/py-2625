@@ -347,3 +347,142 @@ Class - 2
         -> NOTE: Always Use Proper Way Of Naming Identifiers 
 
         -> NOTE: Always Use UPPER CASE for Static Data (Fixed / Doesn't Change)
+
+
+Class - 3
+==========
+
+    -> Variables 
+
+        -> Variable is a "named storage location" in computers memory (RAM)
+        that holds some value or data.
+
+        -> Syntax 
+
+            -> variable_name = value 
+
+                -> variable_name should follow Identifier Rules 
+                -> = Assignment Operator 
+                -> value is the data you want to store 
+
+                -> data = 10 
+
+
+        -> Variables Allow You To 
+
+            -> Assign Data (Store Data)
+
+            -> Retrieve Data (Get Data)
+
+            -> Manipulate Data (Change Data)
+
+
+    -> Combine Variables With Custom Statements 
+
+        -> Concatenation: Join Strings Using + Operator
+
+        -> NOTE: When Combining Strings With Other Data Types 
+        Like int, float, boolean etc use , Operator
+
+        -> How To Know The Type Of Data, is it String, int, float or something else ?? 
+
+            -> We Use type() function 
+
+        
+        -> How To Know Memory Address Of Variable ?? 
+
+            -> We Use id() function 
+
+
+        -> NOTE: Memory Model In Python 
+
+            -> If a value is already present in the Memory, 
+            Python Will Not Create A New Memory Block Again.
+
+        
+        -> Manipulate Data (Change Data)
+
+            -> Then We Need To Know "Operators"
+
+
+    
+    
+    -> Operators
+
+        -> Operators are special "Symbols" and "Keywords",
+        which Performs Operations on Variables and their Values.
+
+        -> We Have Different Types Of Operators, To Deal With Different Types Of Data 
+
+
+        -> Arithmetic Operators 
+
+            -> To Perform Mathematical Calculations 
+
+                -> + - * / % 
+
+                -> // - Floor Division (Same as Division, but rounds off result)
+
+                -> ** - Exponentiation (Same As Calculating Powers)
+
+            -> https://www.cardekho.com/tata/punch
+
+            -> https://www.moneyseth.com/media/custom_blog/2021/05/05/emi-calculator_l9Xlp4V.png
+
+        
+
+        -> Compound Assignment Operators 
+
+            -> Assignment Operator is = (Used to Assign Value To Variable)
+
+            -> Compound Assignment Operators, Combine 
+            Arithmetic Operators with Assignment Operator 
+            for Short Hand Code (Concise Code)
+
+            -> x = 10 
+            -> x = x * 5 (long form)
+
+            -> x = 10 
+            -> x *= 5 (short form) 
+
+            -> NOTE: In Other Languages(like java), we have Increment & Decrement Operators 
+
+                -> Increment (++) - increase the value
+                -> Decrement (--) - decrease the value 
+
+                -> NOTE: Above Operators are not supported in python 
+
+                -> NOTE: We Use Increment & Decrement Operators, In Loops 
+
+
+        -> Comparison Operators 
+
+            -> Comparison Operators are used for Comparing Values
+            and result is in boolean type (True/False)
+
+            -> NOTE: We Use Comparison Operators, In Conditionals 
+
+            -> ==, !=, >, <, >=, <= 
+
+        
+        -> Logical Operators 
+
+            -> Logical Operators are used for Performing Logical Operations
+
+            -> Used to check multiple conditions and result is in boolean type (True/False)
+
+            -> Logical Operators are Keywords 
+
+                -> and: if both conditions are True, then only result is True, otherwise False 
+                -> or: if one of the conditions is True, then result is True, otherwise False 
+                -> not: negates the result, if true then false and vice versa 
+
+                            X       Y       X and Y    X or Y    not X    not Y
+                            T       T           T         T         F       F
+                            T       F           F         T         F       T
+                            F       T           F         T         T       F
+                            F       F           F         F         T       T 
+
+
+
+        
