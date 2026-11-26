@@ -81,3 +81,69 @@ print(num1 > num2 or num3 > num4) # F or F = F
 print(num1 > num2) # F 
 print(not num1 > num2) # F -> T
 
+print("==============================")
+
+# Membership Operators 
+data = "python is an programming language"
+find_word = "hello"
+match_status = find_word in data
+print("Found Word: ",match_status)
+
+print("==============================")
+
+data = "python is an programming language"
+find_word = "python"
+match_status = find_word in data
+print("Found Word: ",match_status)
+
+print("==============================")
+
+# List Data Type -> List Stores Multiple Values in []
+list_of_products = ["mobile","keyboard","laptop","earphone","pc","laptop"]
+find_product = "shoe"
+match_status = find_product in list_of_products
+print("Product Found: ",match_status)
+
+print("==============================")
+
+list_of_products = ["mobile","keyboard","laptop","earphone","pc","laptop"]
+find_product = "laptop"
+match_status = find_product in list_of_products
+print("Product Found: ",match_status)
+
+print("==============================")
+
+list_of_products = ["mobile","keyboard","laptop","earphone","pc","laptop"]
+find_product = "shoe"
+match_status = find_product not in list_of_products 
+print("Shoe Not Found: ",match_status)
+
+print("==============================")
+
+# Identity Operators 
+
+value_x = 10
+print(id(value_x))
+
+value_y = 100
+print(id(value_y))
+
+value_z = 10
+print(id(value_z))
+
+print(value_x is value_y) # False 
+
+print(value_x is value_z) # True 
+
+print(value_x is not value_y) # True 
+
+print("==============================")
+
+# Bitwise Operators 
+
+n1 = 5 # 0000 0101
+n2 = 3 # 0000 0011
+print(n1 | n2) # 7
+print(n1 & n2) # 1 - 
+
+print("==============================")
