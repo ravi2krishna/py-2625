@@ -608,3 +608,110 @@ Class - 4
 
                     -> data_type(variable_name)
                     -> data_type(value)
+
+
+Class - 5
+==========
+
+    -> Control Structures / Control Statements 
+
+        -> Control Structures Help You Determine "Flow Of Execution"
+
+        -> Control Structures Allows You To 
+
+            -> Make Decisions 
+
+            -> Repeat Tasks 
+
+
+        -> Python Has Given Three Types Of Control Structures 
+
+            -> Conditional Structures (Decision Making Statements) 
+
+            -> Looping Structures (Iteration Statements) (Repetition)
+
+            -> Branching Structures (Jump Statements)
+
+        -> NOTE: To Work With Control Structures, We Need "Indentation" Knowledge 
+
+
+    
+    -> Indentation
+
+        -> Indentation in Python is a  Mandatory Aspect of it's Syntax,
+        Used to define the "Structure" and "Hierarchy" in "Code Blocks"
+
+        -> Unlike Other Programming Language that use Curly Braces {}
+        Python entirely relies on Spaces For Indentation 
+
+        -> NOTE: Understanding Indentation Means 
+
+            -> When To Use Space 
+
+                -> When We Write Block Of Code (:)
+
+            -> When Not To Use Space 
+
+                -> Single Statements
+
+            -> How Many Spaces To Use 
+
+                -> At least one Space, But Recommended is 4 Spaces (tab)
+
+        -> NOTE: Python Allows for any "Consistent Number Of Spaces"  
+        the widely accepted and Recommended standard is 4 Spaces (tab)
+
+
+    
+    -> Conditional Structures (Decision Making Statements) 
+
+        -> Used To Run "Block Of Code" Based On Condition Results 
+
+        -> if 
+
+            -> Runs A Block Of Code, If The Condition Is True 
+
+            -> Syntax 
+
+                if Condition:
+                    block of code 
+
+        
+        -> if else 
+
+            -> Runs A Block Of Code, If The Condition Is True 
+            Runs Another Block Of Code, If The Condition Is False  
+
+            -> Syntax 
+
+                if Condition:
+                    block of code # when Condition, true this will execute 
+                else:
+                    block of code # when Condition, false this will execute 
+
+    -> NOTE: input() function, Reads The input From User 
+    and Stores The Input As String Value 
+
+        -> https://designsystem.line.me/static/989c0c2f26933a20e563ef14c5e949d9/73f08/text_input_10_72f1c20992.png
+
+
+        -> Interpolation 
+
+            -> Interpolation technique replaces, place holders with actual values dynamically
+
+            -> Using "f-strings" (Formatted String Literals)
+
+                -> We use f with print() and {} as place holders
+
+
+        -> Conditional Expression 
+
+            -> Conditional Expression provides a concise way(short hand code)
+            to write if else condition in one single line 
+
+            -> NOTE: It evaluates a condition and returns one of two values 
+            based on whether the condition is True or False. 
+
+            -> Syntax 
+                
+                value_if_true if condition else value_if_false 
